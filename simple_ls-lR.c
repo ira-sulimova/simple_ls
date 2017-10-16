@@ -276,7 +276,7 @@ void my_ls(char * path)
 }
 
 
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
     argc == 1? my_ls(".") : my_ls(argv[1]);
     
