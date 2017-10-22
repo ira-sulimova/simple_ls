@@ -1,5 +1,5 @@
 # Summary
-This is an implementation of the UNIX utility ```ls -lR```. It resursively lists the contents of the current (or specified) directory in the long format. By default, the command lists all files, including the hidden ones.
+_simple_ls_ is an implementation of the UNIX utility ```ls -lR```. It resursively lists the contents of the current (or specified) directory in the long format. By default, the command lists all files, including the hidden ones.
 
 # Usage
 
@@ -24,5 +24,5 @@ total 64
 
 
 # Task List
-- [] Add the capability for simple (short) listing format
-- [] In the date field, list time instead of year for the files modified within the last 6 months
+- [ ] Add the capability for simple (short) listing format
+- [ ] In the date field, list time instead of year for the files modified within the last 6 months
